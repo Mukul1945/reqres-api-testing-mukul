@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reqres API Test Report - Mukul</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #4CAF50; color: white; }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Reqres API Test Summary Report</h1>
+    <p><strong>Tester:</strong> Mukul Kumar</p>
+    <p><strong>Total Tests:</strong> 10</p>
+    <p><strong>Passed:</strong> 10</p>
+    <p><strong>Failed:</strong> 0</p>
+
+    <table>
+        <tr><th>Test Case</th><th>Endpoint</th><th>Method</th><th>Status</th></tr>
+        <tr><td>TC_01</td><td>/api/users?page=2</td><td>GET</td><td class="pass">PASS</td></tr>
+        <tr><td>TC_02</td><td>/api/users/2</td><td>GET</td><td class="pass">PASS</td></tr>
+        <tr><td>TC_03</td><td>/api/users/23</td><td>GET</td><td class="pass">PASS</td></tr>
+        <tr><td>TC_04</td><td>/api/users</td><td>POST</td><td class="pass">PASS</td></tr>
+        <tr><td>TC_05</td><td>/api/users/2</td><td>PUT</td><td class="pass">PASS</td></tr>
+        <tr><td>TC_06</td><td>/api/users/2</td><td>DELETE</td><td class="pass">PASS</td></tr>
+        <tr><td>TC_07</td><td>/api/register</td><td>POST</td><td class="pass">PASS</td></tr>
+        <tr><td>TC_08</td><td>/api/register</td><td>POST</td><td class="pass">PASS</td></tr>
+        <tr><td>TC_09</td><td>/api/login</td><td>POST</td><td class="pass">PASS</td></tr>
+        <tr><td>TC_10</td><td>/api/login</td><td>POST</td><td class="pass">PASS</td></tr>
+    </table>
+</body>
+</html>
